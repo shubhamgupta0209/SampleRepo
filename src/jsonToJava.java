@@ -16,6 +16,8 @@ public class jsonToJava {
 	public static void main(String[] args)
 			throws ClassNotFoundException, SQLException, JsonGenerationException, JsonMappingException, IOException {
 		// TODO Auto-generated method stub
+		
+		System.out.println("Test");
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		Connection conn = null;
 
